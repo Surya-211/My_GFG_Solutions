@@ -7,7 +7,6 @@ class Solution{
     public:
     long long findMinDiff(vector<long long> a, long long n, long long m){
     //code
-    
     long long min=LONG_MAX;
     
     sort(a.begin(),a.end());
@@ -19,11 +18,8 @@ class Solution{
             min=diff;
     }
     return min;
-    
     }   
 };
-
-
 
 //{ Driver Code Starts.
 int main() {
